@@ -39,6 +39,11 @@ void Print()
 void Delete(int n)
 {
     nodes* tmp1 = head;
+    
+    if(n == 0 || n < 0){
+        cout << "Wrong input" << endl;
+    }
+    
     if(n == 1)
     {
         head = tmp1->nxt;
