@@ -46,7 +46,7 @@ void Delete(int n)
         return;
     }
 
-    for(int i = 1; i < n-2; ++i)
+    for(int i = 1; i <= n-2; ++i)
     {
         tmp1 = tmp1->nxt;
     }
