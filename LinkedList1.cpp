@@ -2,9 +2,6 @@
 #include<iostream>
 #include<stdlib.h>
 
-/*using std::cout;
-using std::cin;
-using std::endl;*/
 using namespace std;
 
 typedef struct Node{
